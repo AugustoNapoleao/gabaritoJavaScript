@@ -54,7 +54,7 @@ switch(mesadaGasto){
     default:
     alert("Digite 1 ou 2")
 } */
-
+/* 
 let valorProduto = 30;
 
 let quantidadeComprada = parseInt(prompt("Digite a quantidade comprada do produto: "))
@@ -79,5 +79,4 @@ switch(pagamento){
         else{
             console.log("Opção inválida")
         }
-}   
-    
+}   */ 
