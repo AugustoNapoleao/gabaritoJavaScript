@@ -47,7 +47,7 @@ while (numeroUsuario <= 5) {
 alert(`O maior número digitado foi: ${maiorNumero}`); */
 
 
-let calculo = 0;
+/* let calculo = 0;
 
 while (calculo != 2) {
     let numero1 = parseInt(prompt("Digite o primeiro número"))
@@ -75,6 +75,27 @@ while (calculo != 2) {
     }
     calculo = parseInt(prompt("Digite se deseja encerrar os cálculos\n1 - Sim\n2 - Não"))
 }
+ */
+
+//Exercicío dos patos
+
+let patinhosForam = parseInt(prompt("Digite o número de patos:"))
+
+let patinhos = patinhosForam
+alert(`${patinhosForam} patinhos foram passear, além das montanhas para brincar`)
 
 
+while (patinhosForam != 0) {
+    patinhosForam--;
+    if(patinhosForam > 1){
+        alert(`A mamãe gritou quá quá quá quá, mas só ${patinhosForam} patinhos voltaram de lá`)
+    }
+    else if(patinhosForam == 1){
+        alert(`A mamãe gritou quá quá quá quá, mas só ${patinhosForam} patinho voltou de lá`)
+    }
+    else {
+        alert("Mas nenhum patinho voltou de lá")
+    }
+}
+alert(`A mamãe patinha foi procurar, além das montanhas na beira do mar, a mamãe gritou quá quá quá quá e os ${patinhos} patinhos voltaram de lá`)
 
